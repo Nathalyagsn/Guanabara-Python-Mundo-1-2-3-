@@ -1,0 +1,5 @@
+quantkm = float(input('Quantidade de km percorrido: '))
+quantdia = int(input('Quantidade de dias alugado: '))
+dia = (quantdia * 60)
+km = (quantkm * 0.15)
+print('O total a pagar pelos dias alugados e km rodados é de: {} R$'. format(dia + km))
